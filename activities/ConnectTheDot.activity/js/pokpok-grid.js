@@ -162,7 +162,7 @@ define([], function () {
         _renderOverlay();
     }
 
-    // ── Touch helpers ─────────────────────────────────────────
+    // Touch helpers 
     function _canvasPosFromTouch(t) {
         var r = _canvas.getBoundingClientRect();
         return { x: t.clientX - r.left, y: t.clientY - r.top };
