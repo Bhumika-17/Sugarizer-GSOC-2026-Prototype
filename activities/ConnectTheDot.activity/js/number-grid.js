@@ -102,6 +102,7 @@ define([], function () {
     }
     function _canvasPos(e){var r=_canvas.getBoundingClientRect();return{x:e.clientX-r.left,y:e.clientY-r.top};}
     function _canvasPosFromTouch(t){var r=_canvas.getBoundingClientRect();return{x:t.clientX-r.left,y:t.clientY-r.top};}
+    //touch
     function _onTouchStart(e){if(!_canvas||!e.touches.length)return;e.preventDefault();_onDown({clientX:e.touches[0].clientX,clientY:e.touches[0].clientY});}
     function _onTouchMove(e){if(!_canvas||!e.touches.length)return;e.preventDefault();_onMove({clientX:e.touches[0].clientX,clientY:e.touches[0].clientY});}
     function _onTouchEnd(e){e.preventDefault();_onLeave();}
@@ -234,3 +235,4 @@ define([], function () {
     };
     return numgrid;
 });
+
