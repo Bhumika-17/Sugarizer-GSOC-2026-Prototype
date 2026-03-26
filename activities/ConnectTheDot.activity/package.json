@@ -1,7 +1,0 @@
-{
-  "name": "connectthedots-activity",
-  "version": "1.0.0",
-  "description": "Connect the Dots activity for Sugarizer",
-  "license": "Apache-2.0",
-  "keywords": ["sugarizer", "sugar", "activity", "drawing"]
-}
