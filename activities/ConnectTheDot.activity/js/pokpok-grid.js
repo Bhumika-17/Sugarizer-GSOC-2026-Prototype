@@ -1,24 +1,13 @@
-/**
- * pokpok-grid.js  –  ConnectTheDot  –  Free drawing (Pok-Pok) mode
- *
- * Fixed dot spacing: DOT_SPACING pixels between adjacent dots.
- * COLS and ROWS are computed dynamically from canvas size so that
- * the number of dots changes with window size, not the spacing.
- *
- * Fill is detected synchronously on pointerup using a fast BFS
- * (index-pointer queue, no .shift()) so color appears with zero lag.
- */
-
 define([], function () {
 
     'use strict';
 
-    var DOT_SPACING = 40;   // fixed pixels between adjacent dots
+    var DOT_SPACING = 40;   
     var DOT_RADIUS  = 4;
     var HIT_RADIUS  = 18;
     var MASK_LINE_W = 2;
 
-    // ── Module state ───────────────────────────────────────────
+    // Module state 
     var _canvas      = null;
     var _ctx         = null;
     var _lines       = [];
@@ -40,7 +29,7 @@ define([], function () {
     var _overlay     = null;
     var _octx        = null;
 
-    // ── Geometry ───────────────────────────────────────────────
+    //Geometry
     function _canvasPos(e) {
         var r = _canvas.getBoundingClientRect();
         return { x: e.clientX - r.left, y: e.clientY - r.top };
@@ -65,7 +54,7 @@ define([], function () {
         });
     }
 
-    // ── Undo / Redo ────────────────────────────────────────────
+    //  Undo / Redo 
     function _snapshot() {
         return {
             lines: _lines.map(function(l) { return Object.assign({}, l); }),
@@ -244,11 +233,6 @@ define([], function () {
         _dragPath = []; _pointerPos = null;
     }
 
-    // ══════════════════════════════════════════════════════════
-    // FLOOD FILL  (fast BFS — index pointer, no .shift())
-    // ══════════════════════════════════════════════════════════
-
-    /** Parse a CSS color string into {r,g,b} via a tiny offscreen canvas. */
     function _parseColor(color) {
         var tmp = document.createElement('canvas');
         tmp.width = tmp.height = 1;
