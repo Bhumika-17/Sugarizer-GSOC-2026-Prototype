@@ -1,4 +1,12 @@
-#GSOC PROPOSAL
+# GSoC 2026 Proposal – Sugarizer (Sugar Labs)
 
-Hello I am Bhumika Tiwari, a final-year CSE student from India. This repository contains prototype code, videos and proposal pdf of my GSOC 2026 sugarizer,sugarlabs proposal.
+Hello! I’m **Bhumika Tiwari**, a final-year Computer Science student from India.
+
+## About This Repository
+This repository contains my **Google Summer of Code 2026 proposal** for **Sugar Labs (Sugarizer)**.
+
+##  Contents
+-  Proposal document (PDF)  
+-  Prototype implementation  
+-  Demo videos showcasing features and progress  
 
