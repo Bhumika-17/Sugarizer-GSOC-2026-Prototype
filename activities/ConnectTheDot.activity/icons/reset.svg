@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  reset.svg  –  ConnectTheDot toolbar icon
+  55×55 px, white-on-transparent, matches Sugar toolbar icon style.
+  Shows a circular refresh/reset arrow — a clockwise arc with an
+  arrowhead, indicating "start over".  Black-and-white only,
+  no gradients, no drop-shadows, consistent stroke weight (3 px).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+
+  <!--
+    Clockwise arc: starts at roughly 11 o'clock (top-left),
+    sweeps 300° clockwise, ends just before the start so the
+    open gap faces up-left, leaving room for the arrowhead.
+    Centre (27.5, 29), radius 13.
+  -->
+  <path d="M 27.5 16
+            A 13 13 0 1 1 16.7 22.5"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!--
+    Arrowhead sitting at the open end of the arc (upper-left),
+    pointing in the direction the arc is travelling (roughly
+    down-left at that position).
+    Drawn as a small filled triangle.
+  -->
+  <polygon points="12.5,17.5  20.5,19.5  15.5,26.0"
+           fill="#ffffff"/>
+
+</svg>

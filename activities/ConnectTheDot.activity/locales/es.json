@@ -1,0 +1,20 @@
+{
+    "Reset": "Restablecer",
+    "ChooseColor": "Elegir colores",
+    "TutoPrev": "Anterior",
+    "TutoNext": "Siguiente",
+    "TutoWelcomeTitle": "Conectar los puntos",
+    "TutoWelcomeContent": "¡Bienvenido! Arrastra entre los puntos para dibujar líneas. ¡Conecta puntos para formar figuras y observa cómo se llenan de color!",
+    "TutoDrawTitle": "Tablero de dibujo",
+    "TutoDrawContent": "Toca y arrastra de un punto a un punto vecino para trazar una línea. Cuando cierras una figura, se rellena automáticamente.",
+    "TutoResetTitle": "Restablecer tablero",
+    "TutoResetContent": "Haz clic aquí para restablecer el tablero y empezar de nuevo.",
+    "TutoShareTitle": "Compartir con amigos",
+    "TutoShareContent": "Haz clic aquí para compartir tu tablero. ¡Todos los conectados verán el mismo dibujo en tiempo real!",
+    "TutoSaveTitle": "Guardar en el Diario",
+    "TutoSaveContent": "Haz clic en el botón Detener para guardar tu dibujo en el Diario de Sugar y poder continuar más tarde.",
+    "TutoColorTitle": "Elige tus colores",
+    "TutoColorContent": "Haz clic aquí para elegir el color de tus líneas y el relleno antes de dibujar."
+,
+    "ImageSaved": "¡Imagen guardada en el Diario!"
+}

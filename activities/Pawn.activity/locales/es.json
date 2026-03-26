@@ -1,0 +1,13 @@
+{
+	"Hello": "Hola {{name}} !",
+	"Played": "{{name}} jugó",
+	"AddPawn": "Agrega un peón",
+	"TutoPrev": "Anterior",
+"TutoNext": "Siguiente",
+"TutoExplainTitle": "Actividad Peón",
+"TutoExplainContent": "Bienvenido a la actividad Peón. Esta actividad es una actividad para probar el desarrollo de Sugarizer.",
+"TutoAddTitle": "Agregar peón",
+"TutoAddContent": "Haga clic aquí para agregar uno a tres peones en el tablero.",
+"TutoBackgroundTitle": "Cambiar fondo",
+"TutoBackgroundContent": "Haga clic aquí para elegir un nuevo fondo para el tablero."
+}
