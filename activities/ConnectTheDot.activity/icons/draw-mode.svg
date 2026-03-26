@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <!-- L-shaped path connecting three dots -->
+  <polyline points="12,43  12,12  43,12"
+            fill="none" stroke="#ffffff" stroke-width="4"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Three connected dots -->
+  <circle cx="12" cy="12" r="6" fill="#ffffff"/>
+  <circle cx="43" cy="12" r="6" fill="#ffffff"/>
+  <circle cx="12" cy="43" r="6" fill="#ffffff"/>
+  <!-- Fourth dot hollow — not yet connected -->
+  <circle cx="43" cy="43" r="6" fill="none" stroke="#ffffff" stroke-width="3"/>
+</svg>
